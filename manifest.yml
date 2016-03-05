@@ -1,0 +1,11 @@
+applications:
+- path: JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: HMSMIET
+  host: hmsmiet
+  disk_quota: 1024M
+  services:
+  - dashDB-5n
+  - Monitoring and Analytics-1k
